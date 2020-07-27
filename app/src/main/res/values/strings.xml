@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- app & activity titles -->
+    <string name="app_name">Import Contacts</string>
+    <string name="contacts">Contacts</string>
+
+    <!-- contacts tab -->
+    <string name="create_contact_button_label">Create Contact</string>
+    <string name="select_contact_button_label">Select Contact</string>
+    <string name="import_contact_button_label">Import Contact</string>
+
+    <!-- contact edit activity -->
+    <string name="contact_info"><b><font size="18">Contact Info</font></b></string>
+    <string name="name_label"><b>Name:</b></string>
+    <string name="name_hint">Name</string>
+    <string name="phone_number_label"><b>Phone Number:</b></string>
+    <string name="phone_number_hint">Phone Number</string>
+    <string name="email_address_label"><b>Email Address:</b></string>
+    <string name="email_address_hint">Email Address</string>
+    <string name="save_contact_button_label">Save Contact</string>
+    <string name="delete_contact_button_label">Delete Contact</string>
+    <string name="contact_saved_toast">Contact Saved</string>
+    <string name="contact_deleted_toast">Contact Deleted</string>
+
+    <!-- contact edit validation warnings -->
+    <string name="name_missing_toast">Name required</string>
+    <string name="name_too_long_toast">Name must be 100 characters or less</string>
+    <string name="included_country_code_toast">Country code should be selected from drop-down, not entered into the phone number field</string>
+    <string name="phone_number_missing_toast">Phone number is required</string>
+    <string name="invalid_phone_number_length_toast">Invalid phone number length</string>
+    <string name="email_address_missing_toast">E-mail is required</string>
+    <string name="invalid_email_address_toast">Invalid E-mail address</string>
+
+    <!-- contact select activity -->
+    <string name="contacts_label"><b><font size="18">Contacts</font></b></string>
+    <string name="no_contacts_message">No contacts created yet! Create a contact:</string>
+
+    <!-- contact import activity -->
+    <string name="search_title">Search Contacts</string>
+    <string name="contact_import_title">Search for and select a contact to import</string>
+    <string name="search_contacts_to_import">Search Contacts</string>
+    <string name="read_contact_permission_reason">READ_CONTACTS permission required to import contacts</string>
+    <string name="loading_contacts">Loading contacts</string>
+    <string name="still_loading_contacts">Still loading contacts…</string>
+
+</resources>
