@@ -1,13 +1,10 @@
 package com.example.importcontacts;
 
 import android.content.Context;
-
 import androidx.test.InstrumentationRegistry;
 import androidx.test.runner.AndroidJUnit4;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
-
 import static org.junit.Assert.*;
 
 /**
@@ -22,6 +19,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.ryevn", appContext.getPackageName());
+        assertEquals("com.example.importcontacts", appContext.getPackageName());
     }
 }
